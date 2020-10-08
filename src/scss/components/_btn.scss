@@ -1,0 +1,21 @@
+.btn{
+  background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+  color: var(--color-white);
+  padding: 15px 30px 15px 30px;
+}
+
+
+@media screen and ( min-width: $vw-medium){
+  background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+  color: var(--color-white);
+  padding: 30px 30px 30px 30px;
+}
+
+
+@media screen and (min-width: $vw-large) {
+
+  background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+  color: var(--color-white);
+  padding: 30px 30px 30px 30px;
+
+}

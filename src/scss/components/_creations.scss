@@ -1,8 +1,44 @@
-//.creations{
-//  display: flex;
-//  align-items: center;
-//  justify-content: center;
-//  flex-direction: column;
-//  text-align: center;
-//
-//}
+.creations{
+  display:flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+
+
+
+  article{
+    margin: 10px 0;
+    padding: 10px;
+  }
+}
+
+@media screen and ( min-width: $vw-medium){
+  .creations{
+    flex-direction: row;
+   flex-wrap: wrap;
+    article{
+      width: 45%;///CEST SA QUI VA FAIRE EN SORTE QUIL SE METTE UN ACOTER DE LAUTRE
+    }
+  }
+}
+
+
+@media screen and (min-width: $vw-large) {
+
+  .creations {
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 20px 120px ;
+
+  }
+  .creations article {
+
+    width: 30%;
+  }
+
+}
